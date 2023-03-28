@@ -12,10 +12,6 @@ const UserSchema = new mongoose.Schema(
       required: [true, 'is required.'],
       minlength: [2, 'must be at least {MINLENGTH} characters.'],
     },
-    gender: {
-      type: String,
-      required: [true, 'is required.'],
-    },
     height: {
       type: Number,
       required: [true, 'is required.'],
@@ -25,6 +21,10 @@ const UserSchema = new mongoose.Schema(
       required: [true, 'is required.'],
     },
     activityLevel: {
+      type: String,
+      required: [true, 'is required.'],
+    },
+    goal: {
       type: String,
       required: [true, 'is required.'],
     },
