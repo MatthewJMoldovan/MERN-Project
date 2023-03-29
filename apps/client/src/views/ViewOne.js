@@ -24,15 +24,6 @@ export const OneUser = (props) => {
     return <h1>Loading...Pleast Wait!</h1>;
   }
 
-  // name: '',
-  // age: '',
-  // gender: '',
-  // height: '',
-  // weight: '',
-  // activityLevel: '',
-  // goal: '',
-  const { name, age, height, weight, activityLevel, goal } = user;
-
   return (
     <div className="container">
       <UserForm formType={'update'} user={user} setUser={setUser} />
