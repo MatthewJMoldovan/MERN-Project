@@ -1,3 +1,10 @@
+import React from 'react';
+import { UsersList } from '../components/UsersList';
+
 export const AllUsers = (props) => {
-  return <h2>allUsers</h2>;
+  return (
+    <div>
+      <UsersList />
+    </div>
+  );
 };
