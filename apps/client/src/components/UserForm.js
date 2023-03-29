@@ -22,7 +22,7 @@ export const UserForm = (props) => {
       .post('http://localhost:8080/api/users', user)
       .then((res) => {
         console.log('Response: ', res);
-        navigate('/user/' + res.data._id);
+        navigate('/user/all');
       })
       .catch((err) => {
         console.log(err);
@@ -35,7 +35,7 @@ export const UserForm = (props) => {
       .put('http://localhost:8080/api/users/' + params.id, user)
       .then((res) => {
         console.log('Response: ', res);
-        navigate('/users/' + params.id);
+        navigate('/user/all');
       })
       .catch((err) => {
         console.log(err);
@@ -124,6 +124,7 @@ export const UserForm = (props) => {
           id="activityLevel"
           name="activityLevel"
           onChange={onChangeHandler}
+          value={user.activityLevel}
         >
           <option selected>Select activity level</option>
           <option value="sedentary">Sedentary</option>
@@ -141,6 +142,7 @@ export const UserForm = (props) => {
           id="goal"
           name="goal"
           onChange={onChangeHandler}
+          value={user.goal}
         >
           <option selected>Select a goal</option>
           <option value="decrease body fat">Decrease body fat</option>
