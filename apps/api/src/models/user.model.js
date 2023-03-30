@@ -28,8 +28,21 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: [true, 'is required.'],
     },
+    gender: {
+      type: String,
+      required: [true, 'is required.'],
+    },
+    image: {
+      base64: String,
+      imageFormat: String,
+    },
+    bodyFat: {
+      type: Number,
+      required: true,
+    },
   },
   { timestamps: true }
 );
 
+console.log('User model created');
 export const User = mongoose.model('User', UserSchema);

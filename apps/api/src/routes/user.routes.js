@@ -18,4 +18,6 @@ userRouter.get('/:id', handleGetOneUser);
 userRouter.put('/:id', handleUpdateUser);
 userRouter.delete('/:id', handleDeleteUser);
 
+console.log('User router created');
+
 export { userRouter };
