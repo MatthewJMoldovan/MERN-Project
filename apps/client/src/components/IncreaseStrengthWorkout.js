@@ -66,10 +66,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -99,10 +104,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -136,10 +146,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -153,10 +168,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -190,10 +210,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -235,10 +260,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -252,10 +282,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -269,10 +304,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ height: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -314,10 +354,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -347,10 +392,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -384,10 +434,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -401,10 +456,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -438,10 +498,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -483,10 +548,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -500,10 +570,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -517,10 +592,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -562,10 +642,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -595,10 +680,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -632,10 +722,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -649,10 +744,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -686,10 +786,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -731,10 +836,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -748,10 +858,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -765,10 +880,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -810,10 +930,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -843,10 +968,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -880,10 +1010,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -897,10 +1032,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -934,10 +1074,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -979,10 +1124,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -996,10 +1146,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1013,10 +1168,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1058,10 +1218,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1091,10 +1256,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1128,10 +1298,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1145,10 +1320,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1182,10 +1362,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1227,10 +1412,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1244,10 +1434,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1261,10 +1456,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1306,10 +1506,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1339,10 +1544,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1376,10 +1586,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1393,10 +1608,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1430,10 +1650,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1475,10 +1700,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1492,10 +1722,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1509,10 +1744,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1554,10 +1794,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1587,10 +1832,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1624,10 +1874,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1641,10 +1896,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1678,10 +1938,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1723,10 +1988,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1740,10 +2010,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1757,10 +2032,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1802,10 +2082,15 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 1 - Upper Body Push</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 1 - Upper Body Push
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1835,10 +2120,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Lower Body Day 1</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Lower Body Day 1
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1872,10 +2162,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 3 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 3 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1889,10 +2184,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 4 - Upper Body Pull</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 4 - Upper Body Pull
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1926,10 +2226,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 5 - Full Body</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 5 - Full Body
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>
@@ -1971,10 +2276,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 6 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 6 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -1988,10 +2298,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 7 - Active Recovery - 30-60 min</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 7 - Active Recovery <br /> 30-60 min
+                    </h5>
                   </div>
                   <div>
                     <ul>
@@ -2005,10 +2320,15 @@ export default function BasicTabs() {
               </Card>
             </Grid>
             <Grid xs={3}>
-              <Card sx={{ minHeight: 475 }}>
+              <Card sx={{ minHeight: 600 }}>
                 <CardContent>
-                  <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Helpful Resources</h5>
+                  <div
+                    className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light"
+                    style={{ height: '75px' }}
+                  >
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Helpful Resources
+                    </h5>
                   </div>
                   <div>
                     <ul>

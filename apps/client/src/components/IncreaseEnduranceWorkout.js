@@ -96,7 +96,9 @@ export default function BasicTabs() {
               <Card sx={{ minHeight: 475 }}>
                 <CardContent>
                   <div className="d-flex align-items-center justify-content-center shadow-sm align-middle bg-dark rounded pt-2 mb-2 text-light">
-                    <h5 className="fw-bold">Day 2 - Upper Body Endurance</h5>
+                    <h5 className="fw-bold" style={{ padding: '10px' }}>
+                      Day 2 - Upper Body Endurance
+                    </h5>
                   </div>
                   <div className="d-flex">
                     <p className="fw-bold me-2">Warm-up:</p>

@@ -183,7 +183,7 @@ export const UserForm = (props) => {
             />
             <label className="form-label">Weight (in pounds)</label>
           </div>
-          <div className="d-grid col-6 mx-auto position-absolute bottom-0 start-50 translate-middle-x">
+          <div className="d-grid col-6 position-absolute start-50 translate-middle-x mt-5" style={{ padding: '100px' }}>
             <input
               value={formType === 'create' ? 'Add a new user' : 'Edit User'}
               className="btn btn-outline-dark"
