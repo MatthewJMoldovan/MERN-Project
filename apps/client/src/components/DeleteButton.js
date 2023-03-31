@@ -15,7 +15,7 @@ export const DeleteButton = (props) => {
   };
 
   return (
-    <button className="btn btn-outline-danger" onClick={(e) => deleteUser(user._id)}>
+    <button className="btn" onClick={(e) => deleteUser(user._id)}>
       Delete
     </button>
   );
