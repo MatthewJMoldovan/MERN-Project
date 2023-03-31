@@ -43,5 +43,5 @@ export const Workout = (props) => {
     workoutView = <MaintainHealthWorkout />;
   }
 
-  return <div>{workoutView}</div>;
+  return workoutView;
 };
