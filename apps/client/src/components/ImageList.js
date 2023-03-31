@@ -8,7 +8,9 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import coverphoto from './coverphoto.jpg';
 import coverphoto2 from './coverphoto2.jpg';
+import coverphoto3 from './coverphoto3.jpg';
 import { Grid } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -79,12 +81,20 @@ export const StockImageList = (props) => {
           </AutoPlaySwipeableViews>
         </Grid>
         <Grid xs={6}>
+          <Link
+            to="/user/new"
+            className="btn btn-outline-light carousel-caption"
+            style={{ top: '50%', left: '60%', transform: 'translateY(-50%)', bottom: 'initial', padding: '10px' }}
+          >
+            get started now →
+          </Link>
           <img src={coverphoto} style={{ width: '100%', height: '300px' }} />
         </Grid>
       </Grid>
       <Grid container sx={{ width: '40%' }} mb={5} rowSpacing={1} columnSpacing={{ xs: 1 }}>
         <Grid xs={4}>
-          <img src={coverphoto2} style={{ width: '400px', height: '100%' }} />
+          <img src={coverphoto2} style={{ width: '400px', height: '600px' }} />
+          <img src={coverphoto3} style={{ width: '400px', height: '600px' }} className="mt-3" />
         </Grid>
         <Grid xs={8}>
           <ImageList sx={{ width: '100', height: '100%' }} variant="woven" cols={3} gap={8}>
