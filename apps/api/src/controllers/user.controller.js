@@ -69,3 +69,5 @@ export const handleCreateManyUsers = async (req, res, next) => {
     return next(error);
   }
 };
+
+console.log('User controller created');

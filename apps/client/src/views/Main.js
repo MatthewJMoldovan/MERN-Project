@@ -1,3 +1,9 @@
+import { StockImageList } from '../components/ImageList';
+
 export const Home = (props) => {
-  return <h2>Home</h2>;
+  return (
+    <div>
+      <StockImageList />
+    </div>
+  );
 };
