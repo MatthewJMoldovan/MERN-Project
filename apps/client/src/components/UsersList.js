@@ -38,7 +38,10 @@ export const UsersList = (props) => {
                   <td className="align-middle fs-4">{name}</td>
                   <td>
                     <Link to={`/user/${_id}`} className="btn btn-outline-warning mx-1">
-                      View
+                      Edit Client
+                    </Link>
+                    <Link to={`/user/${_id}/workout`} className="btn btn-outline-success mx-1">
+                      View Workout
                     </Link>
                     <DeleteButton user={user} removeUser={removeUser} />
                   </td>

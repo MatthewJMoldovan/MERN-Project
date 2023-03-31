@@ -9,7 +9,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="Container">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top justify-content-between mb-4 px-4 rounded border">
+      <nav className="navbar navbar-expand-lg navbar-light sticky-top justify-content-between mb-4 px-4 rounded border border-2">
         <h1 className="navbar-brand mb-0 fs-1">Welcome</h1>
         <div className="navbar-nav">
           <Link to="/user/new" className="btn btn-success mx-1">
