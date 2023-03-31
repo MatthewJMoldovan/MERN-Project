@@ -21,7 +21,7 @@ export const UsersList = (props) => {
   };
 
   return (
-    <div className="w-75 p-4 mx-auto">
+    <div className="w-75 p-4 mx-auto" style={{ fontFamily: 'optima, sans-serif' }}>
       <div className="shadow mb-4 rounded border p-4 text-center">
         <table className="table">
           <thead>
@@ -30,25 +30,22 @@ export const UsersList = (props) => {
               <th scope="col">Actions available</th>
             </tr>
           </thead>
-          {users.map((user, i) => {
-            const { _id, name } = user;
-            return (
-              <tbody>
+          <tbody>
+            {users.map((user, i) => {
+              const { _id, name } = user;
+              return (
                 <tr key={i}>
                   <td className="align-middle fs-4">{name}</td>
                   <td>
-                    <Link to={`/user/${_id}`} className="btn btn-outline-warning mx-1">
-                      Edit Client
-                    </Link>
-                    <Link to={`/user/${_id}/workout`} className="btn btn-outline-success mx-1">
-                      View Workout
+                    <Link to={`/user/${_id}`} className="btn mx-1">
+                      View
                     </Link>
                     <DeleteButton user={user} removeUser={removeUser} />
                   </td>
                 </tr>
-              </tbody>
-            );
-          })}
+              );
+            })}
+          </tbody>
         </table>
       </div>
     </div>
