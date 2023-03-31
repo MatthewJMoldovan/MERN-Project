@@ -103,7 +103,7 @@ export const UploadForm = (props) => {
             type="file"
             label="Image"
             name="image"
-            accept=".jpg, .jpeg, .png"
+            accept=".jpg, .jpeg"
             onChange={(e) => handleFileUpload(e)}
           />
           <button className="btn btn-outline-secondary" disabled={buttonStatus}>

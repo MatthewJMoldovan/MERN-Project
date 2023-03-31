@@ -8,7 +8,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container" style={{ fontFamily: 'optima, sans-serif' }}>
+    <div className="Container" style={{ fontFamily: 'optima, sans-serif' }}>
       <nav
         className="navbar navbar-expand-lg navbar-light sticky-top justify-content-between mb-4 px-4 rounded border"
         style={{ backgroundColor: 'white' }}

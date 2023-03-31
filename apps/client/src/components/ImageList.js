@@ -4,9 +4,11 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import MobileStepper from '@mui/material/MobileStepper';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import coverphoto from './coverphoto.jpg';
+import coverphoto2 from './coverphoto2.jpg';
+import { Grid } from '@mui/material';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -48,41 +50,58 @@ export const StockImageList = (props) => {
 
   return (
     <>
-      <Box sx={{ maxWidth: '100%' }}>
-        <AutoPlaySwipeableViews
-          axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-          index={activeStep}
-          onChangeIndex={handleStepChange}
-          enableMouseEvents
-        >
-          {gymImages.map((step, index) => (
-            <div key={index}>
-              {Math.abs(activeStep - index) <= 2 ? (
-                <Box
-                  component="img"
-                  src={step.assets.huge_thumb.url}
-                  style={{ margin: '0px 0px -60px 0px' }}
+      <Grid container sx={{ width: '40%' }} mb={3} columnSpacing={{ xs: 1 }}>
+        <Grid xs={6}>
+          <AutoPlaySwipeableViews
+            axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+            index={activeStep}
+            onChangeIndex={handleStepChange}
+            enableMouseEvents
+          >
+            {gymImages.map((step, index) => (
+              <div key={index}>
+                {Math.abs(activeStep - index) <= 2 ? (
+                  <Box
+                    component="img"
+                    sx={{
+                      height: 300,
+                      display: 'block',
+                      maxWidth: '100%',
+                      width: 600,
+                      objectFit: 'cover',
+                    }}
+                    src={step.assets.huge_thumb.url}
+                    alt="fitness"
+                  />
+                ) : null}
+              </div>
+            ))}
+          </AutoPlaySwipeableViews>
+        </Grid>
+        <Grid xs={6}>
+          <img src={coverphoto} style={{ width: '100%', height: '300px' }} />
+        </Grid>
+      </Grid>
+      <Grid container sx={{ width: '40%' }} mb={5} rowSpacing={1} columnSpacing={{ xs: 1 }}>
+        <Grid xs={4}>
+          <img src={coverphoto2} style={{ width: '400px', height: '100%' }} />
+        </Grid>
+        <Grid xs={8}>
+          <ImageList sx={{ width: '100', height: '100%' }} variant="woven" cols={3} gap={8}>
+            {fitImages.map((image, index) => (
+              <ImageListItem key={index}>
+                <img
+                  src={`${image.assets.huge_thumb.url}?w=161&fit=crop&auto=format`}
+                  srcSet={`${image.assets.huge_thumb.url}?w=161&fit=crop&auto=format&dpr=2 2x`}
                   alt="fitness"
+                  loading="lazy"
+                  style={{ margin: '0px 0px -60px 0px' }}
                 />
-              ) : null}
-            </div>
-          ))}
-        </AutoPlaySwipeableViews>
-        {/* <MobileStepper steps={maxSteps} position="static" activeStep={activeStep} /> */}
-      </Box>
-      <ImageList sx={{ width: '100', height: '100%' }} variant="woven" cols={3} gap={8}>
-        {fitImages.map((image, index) => (
-          <ImageListItem key={index}>
-            <img
-              src={`${image.assets.huge_thumb.url}?w=161&fit=crop&auto=format`}
-              srcSet={`${image.assets.huge_thumb.url}?w=161&fit=crop&auto=format&dpr=2 2x`}
-              alt="fitness"
-              loading="lazy"
-              style={{ margin: '0px 0px -60px 0px' }}
-            />
-          </ImageListItem>
-        ))}
-      </ImageList>
+              </ImageListItem>
+            ))}
+          </ImageList>
+        </Grid>
+      </Grid>
     </>
   );
 };
