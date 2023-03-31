@@ -3,23 +3,19 @@ import { AllUsers } from './views/ViewAll';
 import { Workout } from './views/ViewWorkout';
 import { Home } from './views/Main';
 import { OneUser } from './views/ViewOne';
+import logo from './FitnessLogo.png';
 
 import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container" style={{ fontFamily: 'optima, sans-serif' }}>
+    <div className="Container" style={{ fontFamily: 'optima, sans-serif' }}>
       <nav
         className="navbar navbar-expand-lg navbar-light sticky-top justify-content-between mb-4 px-4 rounded border"
         style={{ backgroundColor: 'white' }}
       >
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img
-            src="./FitnessLogo.png"
-            alt="logo"
-            className="d-inline-block align-text-top"
-            style={{ height: '50px' }}
-          />
+          <img src={logo} alt="logo" className="d-inline-block align-text-top" style={{ height: '50px' }} />
           <h1 className="navbar-brand mb-0 fs-1 ms-2">WorkoutWiz</h1>
         </div>
         <div className="navbar-nav">

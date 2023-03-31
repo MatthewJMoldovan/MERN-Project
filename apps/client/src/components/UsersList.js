@@ -40,6 +40,9 @@ export const UsersList = (props) => {
                     <Link to={`/user/${_id}`} className="btn mx-1">
                       View
                     </Link>
+                    <Link to={`/user/${_id}/workout`} className="btn mx-1">
+                      Get Workout
+                    </Link>
                     <DeleteButton user={user} removeUser={removeUser} />
                   </td>
                 </tr>
