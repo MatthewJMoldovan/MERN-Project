@@ -1,1 +1,1 @@
-Test
+WorkoutWiz App
