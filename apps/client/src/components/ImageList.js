@@ -9,7 +9,7 @@ import { autoPlay } from 'react-swipeable-views-utils';
 import coverphoto from './coverphoto.jpg';
 import coverphoto2 from './coverphoto2.jpg';
 import coverphoto3 from './coverphoto3.jpg';
-import { Grid } from '@mui/material';
+import { Grid, Paper } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -84,7 +84,13 @@ export const StockImageList = (props) => {
           <Link
             to="/user/new"
             className="btn btn-outline-light carousel-caption"
-            style={{ top: '50%', left: '60%', transform: 'translateY(-50%)', bottom: 'initial', padding: '10px' }}
+            style={{
+              top: '50%',
+              left: '60%',
+              transform: 'translateY(-50%)',
+              bottom: 'initial',
+              padding: '10px',
+            }}
           >
             get started now →
           </Link>

@@ -3,7 +3,7 @@ import 'dotenv/config.js';
 
 // THERE ARE TWO TOKENS, IF THE CONSOLE LOG SAYS THERE ARE TOO MANY REQUESTS - SWITCH TO THE OTHER ONE
 // const token = process.env.token1;
-const token = process.env.token2;
+const token = process.env.token1;
 
 sstk.setAccessToken(token);
 
